@@ -5,7 +5,7 @@ module.controller('ButBrendan', function ($scope) {
 	window.location.search.replace(/^\?/, '').split('&').forEach(function (pair) {
 		pair = pair.split(/\=/);
 		if (pair.length == 2) {
-			parameters[dencodeURIComponent(pair[0])] = dencodeURIComponent(pair[1]);
+			parameters[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1]);
 		}
 	});
 
