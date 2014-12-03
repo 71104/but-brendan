@@ -24,7 +24,7 @@
 					<input type="text" data-ng-model="what" class="form-control" placeholder="Enter here&hellip;" autofocus/>
 				</div>
 			</div>
-			<div class="form-group">
+			<div class="form-group" data-ng-if="what &amp;&amp; what != ''">
 				<div class="col-sm-offset-4 col-sm-6">
 					<p class="form-control-static">But, Brendan, you <em>are</em> a {{what}}.</p>
 				</div>
