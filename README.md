@@ -6,4 +6,4 @@ An [AngularJS](https://angularjs.org/) app to let [Brendan Meade](https://www.li
 Examples:
 - [A scrambled channel](http://71104.github.io/but-brendan/?what=scrambled%20channel).
 - [Encrypted content](http://71104.github.io/but-brendan/?what=encrypted%20content).
-- [Matury-rated content](http://71104.github.io/but-brendan/?what=maturity-rated%20content).
+- [Maturity-rated content](http://71104.github.io/but-brendan/?what=maturity-rated%20content).
