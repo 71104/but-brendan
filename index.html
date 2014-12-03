@@ -18,8 +18,16 @@
 <body data-ng-app="ButBrendan">
 	<h1>But, Brendan.</h1>
 	<form data-ng-controller="ButBrendan" class="form-horizontal" role="form">
-		<input type="text" data-ng-model="what" class="form-control col-sm-offset-4 col-sm-6" placeholder="Enter here&hellip;" autofocus/>
-		<p class="col-sm-offset-4 col-sm-6">But, Brendan, you <em>are</em> a {{what}}.</p>
+		<div class="form-group">
+			<div class="col-sm-offset-4 col-sm-6">
+				<input type="text" data-ng-model="what" class="form-control" placeholder="Enter here&hellip;" autofocus/>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-4 col-sm-6">
+				<p>But, Brendan, you <em>are</em> a {{what}}.</p>
+			</div>
+		</div>
 	</form>
 </body>
 </html>
