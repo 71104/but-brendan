@@ -37,6 +37,11 @@
 clippy.BASE_PATH = 'agents/';
 clippy.load('Clippy', function (agent) {
 	agent.show();
+	agent.play('Show');
+	agent.speak('Hello, looks like you are in trouble thinking about something that Brendan Meade actually is. Can I suggest a scrambled channel?');
+	window.setInterval(function () {
+		agent.animate();
+	}, 60000);
 });
 	</script>
 </body>
